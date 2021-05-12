@@ -1,0 +1,23 @@
+#my-canvas {
+    border: 1px solid black;
+    /* cursor: url('../images/hammer.png'), auto; */
+    display: block;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.antImage {
+    display: none;
+}
+
+#smasher {
+    font-size: 40px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    margin: 10px auto;
+}

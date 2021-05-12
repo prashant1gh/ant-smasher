@@ -5,11 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ant smasher</title>
+    <title>Ant smasher</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <header>
+        <span id="smasher">Ant Smasher</span> Score: <span id='score'>0</span>
+    </header>
 
+    <main>
+        <img class='antImage' id='ant' src="images/ant.png" alt="">
+        <img class='antImage' id='ant1' src="images/ant-1.png" alt="">
+        <img class='antImage' id='ant2' src="images/ant-2.png" alt="">
+        <img class='antImage' id='ant3' src="images/ant-3.png" alt="">
+        <img class='antImage' id='ant4' src="images/ant-4.png" alt="">
+        <canvas id="my-canvas" height="600px" width="1400px"></canvas>
+    </main>
+
+    <script src="./js/utility.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
