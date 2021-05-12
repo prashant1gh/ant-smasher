@@ -1,6 +1,6 @@
 #my-canvas {
     border: 1px solid black;
-    /* cursor: url('../images/hammer.png'), auto; */
+    cursor: url('../images/hammer.png'), auto;
     display: block;
     width: 1200px;
     height: 600px;
